@@ -37,10 +37,10 @@
     <!–/.nav-collapse –>
   </nav>
   <form id="formA2SQL" runat="server">
-    <div class="container-fluid body-content">
+    <div class="container-fluid body-content" style="padding: 12px 4px 4px 8px" >
       <asp:ContentPlaceHolder ID="ContentPlaceHolderA2SQL" runat="server">
       </asp:ContentPlaceHolder>
-      <br />
+      <br /><br />
       <footer>
         <p>&copy; <%: DateTime.Now.Year %> Quaffee</p>
       </footer>
