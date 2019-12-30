@@ -84,6 +84,43 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aclasses\CityTblData.cs" />
+    <Compile Include="Aclasses\ContactDetails.cs" />
+    <Compile Include="Aclasses\CustomerData.cs" />
+    <Compile Include="Aclasses\CustomerTypeTblData.cs" />
+    <Compile Include="Aclasses\GeneralTrackerDbTools.cs" />
+    <Compile Include="Aclasses\OrderDetail.cs" />
+    <Compile Include="Aclasses\OrderDetailData.cs" />
+    <Compile Include="Aclasses\OrdersTblData.cs" />
+    <Compile Include="Aclasses\ReoccuringOrderTblData.cs" />
+    <Compile Include="Aclasses\showMessageBox.cs" />
+    <Compile Include="Aclasses\TrackerDb.cs" />
+    <Compile Include="Aclasses\TrackerTools.cs" />
+    <Compile Include="Acontrol\ClientsToReceiveReminderQry.cs" />
+    <Compile Include="Acontrol\ClientUsageFromTempOrder.cs" />
+    <Compile Include="Acontrol\ClientUsageLinesTbl.cs" />
+    <Compile Include="Acontrol\ClientUsageTbl.cs" />
+    <Compile Include="Acontrol\CustomersTbl.cs" />
+    <Compile Include="Acontrol\CustomerSummary.cs" />
+    <Compile Include="Acontrol\CustomerTypeTbl.cs" />
+    <Compile Include="Acontrol\DeliveryItemsTbl.cs" />
+    <Compile Include="Acontrol\EquipTypeTbl.cs" />
+    <Compile Include="Acontrol\ItemTypeTbl.cs" />
+    <Compile Include="Acontrol\ItemUsageTbl.cs" />
+    <Compile Include="Acontrol\NextRoastDateByCityTbl.cs" />
+    <Compile Include="Acontrol\OrderData.cs" />
+    <Compile Include="Acontrol\OrderDBAgent.cs" />
+    <Compile Include="Acontrol\OrderHeaderData.cs" />
+    <Compile Include="Acontrol\OrderItemTbl.cs" />
+    <Compile Include="Acontrol\OrderTbl.cs" />
+    <Compile Include="Acontrol\PackagingTbl.cs" />
+    <Compile Include="Acontrol\PersonsTbl.cs" />
+    <Compile Include="Acontrol\ReoccuranceTypeTbl.cs" />
+    <Compile Include="Acontrol\ReoccuringOrderTbl.cs" />
+    <Compile Include="Acontrol\TempOrders.cs" />
+    <Compile Include="Acontrol\TempOrdersHeaderTbl.cs" />
+    <Compile Include="Acontrol\TempOrdersLinesTbl.cs" />
+    <Compile Include="Acontrol\TrackedServiceItemTbl.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
